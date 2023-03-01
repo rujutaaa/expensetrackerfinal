@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/lavendar" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Budget"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="605dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="621dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/lavendar"
+                android:hint="Month"
+                android:textColorHint="@color/white"
+                android:inputType="number"
+                android:textColor="@color/black" >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/budgetMonth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/lavendar"
+                    android:drawableEnd="@drawable/date_day"
+                    android:onClick="setTxtdummy"
+                    android:textColor="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/framelay">
+
+            </FrameLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutYear"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/lavendar"
+                android:hint="Year"
+                android:textColorHint="@color/white"
+                android:textColor="@color/black" >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/budgetYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/lavendar"
+                    android:inputType="phone"
+                    android:textColor="@color/white"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutBudgetLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/lavendar"
+                android:hint="Budget limit"
+                android:textColorHint="@color/white"
+                android:textColor="@color/black" >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/budgetLimit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/lavendar"
+                    android:inputType="phone"
+                    android:textColor="@color/white"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/add_budget"
+                style="button_primary"
+                android:layout_width="163dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="190dp"
+                android:backgroundTint="#9C27B0"
+                android:gravity="center"
+                android:text="add_budget"
+                android:textColorHint="@color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

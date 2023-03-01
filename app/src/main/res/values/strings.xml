@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">LogSign</string>
+    <string name="signuphere">signuphere</string>
+    <string name="login">login</string>
+    <!--    <string name="password">password</string>-->
+    <!--    <string name="username">username</string>-->
+    <string name="loginhere">loginhere</string>
+    <string name="signup">signup</string>
+    <string name="email">email</string>
+    <string name="fullname">fullname</string>
+    <string name="save_transaction">Save Transaction</string>
+    <string name="date">Date</string>
+    <string name="amount">Amount</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+
+    <!--    <string name="category_list">dropDownMenuExample</string>-->
+    <array name="expense_name">
+        <item>food and Dining</item>
+        <item>Shopping</item>
+        <item>Travel</item>
+        <item>Entertainment</item>
+        <item>Medical</item>
+        <item>Personal Care</item>
+        <item>Education</item>
+        <item>Bills and Utilities</item>
+        <item>Investments</item>
+        <item>Rent</item>
+        <item>Taxes</item>
+        <item>Insurance</item>
+        <item>Gifts</item>
+        <item>Donation</item>
+        <item>Others</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+
+    <string name="home">Navigation Drawer</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+</resources>
